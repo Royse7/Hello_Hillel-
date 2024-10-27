@@ -1,0 +1,61 @@
+/* Основные стили для заголовков на всех страницах */
+#contact-heading, #gallery-heading {
+    font-size: 2em;
+    text-align: center;
+    color: #4a90e2;
+    margin-top: 20px;
+}
+
+/* Стили для контактной информации */
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для галереи */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Стили для навигационного меню */
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #333;
+}

@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Про мене</title>
 </head>
 <body>
-    <h1>Привіт! Я [Rostyslav]</h1>
-    <p>Мене цікавить [Maine Coon].</p>
-    <p>Це коротка інформація про мене.</p>
-    <img src="photo/moya_foto.jpg" alt="Це Maine Coon">
+    <header>
+        <h1 id="main-heading">Привіт! Я <span class="name">Rostyslav</span></h1>
+    </header>
     
-    <nav>
+    <section class="about">
+        <p class="interest">Мене цікавить <span class="pet">Maine Coon</span>.</p>
+        <p class="bio">Це коротка інформація про мене.</p>
+        <img src="photo/foto.jpg" alt="Це Maine Coon" class="profile-photo">
+    </section>
+
+    <nav class="navigation">
         <ul>
             <li><a href="pages/contact.html">Контакти</a></li>
             <li><a href="pages/gallery.html">Галерея</a></li>
@@ -19,3 +25,4 @@
     </nav>
 </body>
 </html>
+
